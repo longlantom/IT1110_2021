@@ -1,6 +1,6 @@
 # IT1110_2021
 
-**Nơi chứa bài làm code C trong phần *Thực hành* học phần ***Tin học Đại cương*** mã học phần **IT1110** phiên bản 2021 của longlantom.**
+Nơi chứa bài làm code C trong phần *Thực hành* học phần ***Tin học Đại cương*** mã học phần **IT1110** phiên bản 2021 của longlantom.
 
 ## Cách sử dụng:
 Trong repo này gồm có:
