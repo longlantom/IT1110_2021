@@ -11,3 +11,7 @@ int main(){
     printf("%.2f\n%.2f", t+l+h, (t+l+h)/3);
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

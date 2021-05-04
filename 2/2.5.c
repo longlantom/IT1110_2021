@@ -27,3 +27,7 @@ main(){
     printf("%6.2f", (float)tong/3);
     getch();
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

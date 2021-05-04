@@ -12,4 +12,8 @@ int main(){
     if (r > 0) printf("%f\n%f", 2*r*pi, r*r*pi); else printf("ERROR");
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+
 

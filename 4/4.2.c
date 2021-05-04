@@ -21,3 +21,7 @@ int main(){
     printf("La so nguyen to");
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

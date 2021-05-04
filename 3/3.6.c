@@ -16,3 +16,7 @@ int main(){
     printf("%lf", s);
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

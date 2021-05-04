@@ -55,3 +55,7 @@ int main(){
         printf("%f\n", s);
     }
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

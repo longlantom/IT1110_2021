@@ -39,4 +39,8 @@ int main(){
     if (dd == n) printf("Mang khong co so am");
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+
 

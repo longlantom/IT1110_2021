@@ -12,3 +12,7 @@ int main(){
     printf("%f",((x + y + z)/(x*x + y*y + 1)) - fabs(x - z*cos(y)));
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

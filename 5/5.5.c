@@ -34,3 +34,7 @@ int main(){
         if (d[i] > 0) printf("%d ", d[i]);
     }
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

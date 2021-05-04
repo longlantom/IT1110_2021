@@ -12,3 +12,7 @@ int main(){
     printf("%9.2f", (k*m)*(1 + t/100));
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

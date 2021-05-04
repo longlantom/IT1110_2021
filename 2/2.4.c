@@ -25,3 +25,7 @@ int main(){
     printf("%f", max);
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

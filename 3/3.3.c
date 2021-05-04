@@ -14,3 +14,7 @@ int main(){
     printf("%f\n%f\n%f", x*x + y*y, (x+y)*(x+y), (x-y)*(x-y));
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+

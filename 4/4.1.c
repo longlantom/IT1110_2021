@@ -16,3 +16,7 @@ int main(){
     } else printf("ERROR");
     return 0;
 }
+/*https://github.com/longlantom/IT1110_2021
+by longlantom
+*/
+
