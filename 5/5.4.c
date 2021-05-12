@@ -14,10 +14,9 @@ int main(){
     int n;
     gets(s);
     scanf("%d", &n);
-        for (int i = 0; i < strlen(s); i++){
-            if (i % n == 0) printf("\n");
-            printf("%c", s[i]);
-        }
+    for (int i = 0; i < n; i++){
+        printf("%c", s[i]);
+    }
     return 0;
 }
 /*https://github.com/longlantom/IT1110_2021

@@ -27,11 +27,11 @@ int main(){
         d[t[i]]++;
     }
     for (int i = 0; i < 128; i++){
-        if (d[i] > 0) printf("%c ", (char)i);
+        if (d[i] > 0) printf("%c", (char)i);
     }
     printf("\n");
     for (int i = 0; i < 128; i++){
-        if (d[i] > 0) printf("%d ", d[i]);
+        if (d[i] > 0) printf("%d\n", d[i]);
     }
 }
 /*https://github.com/longlantom/IT1110_2021

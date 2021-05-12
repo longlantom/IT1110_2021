@@ -3,7 +3,6 @@ tang dan va dua ket qua ra man hinh (Moi phan tu cach nhau mot dau cach).
 */
 
 #include<stdio.h>
-#include<alg.h>
 
 int main(){
     int n, a[10000];

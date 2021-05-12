@@ -4,30 +4,31 @@ bieu thuc sau:
 */
 
 #include<stdio.h>
+#include<math.h>
 
-int gt(int n){
-    int s = 1;
-    for (int i = 2; i <= n; i++){
+long long gt(long long n){
+    long long s = 1;
+    for (long long i = 2; i <= n; i++){
         s *= i;
     }
     return s;
 }
 
 int main(){
-    int n;
-    float x, k, s = 0;
-    scanf("%d %f", &n, &x);
-    if (n < 1 && x < 0) printf ("ERROR"); else{
+    long long n;
+    double x, k, s = 0;
+    scanf("%lld %lf", &n, &x);
+    if (n < 1 && x < 0) printf ("Error"); else{
         s = 0;
-        for (int i = 0; i < n; i++){
+        for (long long i = 0; i < n; i++){
             s = sqrt(x + s);
         }
         printf("%f\n", s);
 
         s = 1;
-        for (int i = 1; i <= n; i++){
+        for (long long i = 1; i <= n; i++){
             k = 1;
-            for (int j = 1; j <= i; j++){
+            for (long long j = 1; j <= i; j++){
                 k *= x;
             }
             s += k/i;
@@ -35,9 +36,9 @@ int main(){
         printf("%f\n", s);
 
         s = 1;
-        for (int i = 1; i <= n; i++){
+        for (long long i = 1; i <= n; i++){
             k = 1;
-            for (int j = 1; j <= i; j++){
+            for (long long j = 1; j <= i; j++){
                 k *= x;
             }
             s += k/gt(i);
@@ -45,15 +46,16 @@ int main(){
         printf("%f\n", s);
 
         s = 1;
-        for (int i = 1; i <= n; i++){
+        for (long long i = 1; i <= n; i++){
             k = 1;
-            for (int j = 1; j <= i; j++){
+            for (long long j = 1; j <= i; j++){
                 k *= x;
             }
             s += ((i%2)?-1:1)*k/gt(i);
         }
         printf("%f\n", s);
     }
+    return 0;
 }
 /*https://github.com/longlantom/IT1110_2021
 by longlantom

@@ -7,9 +7,9 @@
 #include<math.h> //using pow()
 
 int main(){
-    float x, y;
+    double x, y;
     double s = 0;
-    scanf("%f%f", &x, &y);
+    scanf("%lf%lf", &x, &y);
     for (int i = 0; i <= 6; i++){
         s += pow(x, i)*pow(y, 6-i);
     }

@@ -8,7 +8,7 @@
 int main(){
     float t, l, h;
     scanf("%f%f%f", &t, &l, &h);
-    printf("%.2f\n%.2f", t+l+h, (t+l+h)/3);
+    printf("%f\n%f", t+l+h, (t+l+h)/3);
     return 0;
 }
 /*https://github.com/longlantom/IT1110_2021

@@ -42,5 +42,3 @@ int main(){
 /*https://github.com/longlantom/IT1110_2021
 by longlantom
 */
-
-

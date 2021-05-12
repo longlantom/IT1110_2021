@@ -7,9 +7,9 @@
 #include<math.h> //using abs() and cos()
 
 int main(){
-    float x, y, z;
-    scanf("%f%f%f", &x, &y, &z);
-    printf("%f",((x + y + z)/(x*x + y*y + 1)) - fabs(x - z*cos(y)));
+    double x, y, z;
+    scanf("%lf%lf%lf", &x, &y, &z);
+    printf("%lf",((x + y + z)/(x*x + y*y + 1)) - fabs(x - z*cos(y)));
     return 0;
 }
 /*https://github.com/longlantom/IT1110_2021

@@ -9,7 +9,10 @@ trinh va in ra man hinh ERROR.
 */
 
 #include<stdio.h>
-#include<alg.h>
+
+int max(int a, int b){
+    return (a>b)?a:b;
+}
 
 int main(){
     int a, b;
@@ -27,4 +30,3 @@ int main(){
 /*https://github.com/longlantom/IT1110_2021
 by longlantom
 */
-
