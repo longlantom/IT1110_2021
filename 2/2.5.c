@@ -15,19 +15,18 @@ int b,c;
 */
 
 #include<stdio.h>
-#include<conio.h>
 
-main(){
+int main(){
     int a, b, c, tong;
-    printf("Nhap a:");scanf("%d", &a);
-    printf("Nhap b:");scanf("%d", &b);
-    printf("Nhap c:");scanf("%d", &c);
+
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
     tong = a + b + c;
     printf("%d\n", tong);
-    printf("%6.2f", (float)tong/3);
-    getch();
+    printf("%f", (float)tong/3);
+    return 0;
 }
 /*https://github.com/longlantom/IT1110_2021
 by longlantom
 */
-
