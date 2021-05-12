@@ -4,20 +4,22 @@ phai la so nguyen to hay khong va thong bao ra man hinh.
 */
 
 #include<stdio.h>
+#include<math.h>
 
 int main(){
-    int n;
-    scanf("%d", &n);
+    long long n;
+    scanf("%lld", &n);
     if (n < 2){
-        printf("Khong phai la so nguyen to");
+        printf("Khong phai so nguyen to");
         return 0;
     }
-    for (int i = 2; i < n/2; i++){
+    for (long long i = 2; i <= sqrt(n); i++){
         if (n % i == 0){
-            printf("Khong phai la so nguyen to");
+            printf("Khong phai so nguyen to");
             return 0;
         }
     }
+
     printf("La so nguyen to");
     return 0;
 }
@@ -25,3 +27,5 @@ int main(){
 by longlantom
 */
 
+//La so nguyen to -> 40
+//Khong phai so nguyen to -> 60
