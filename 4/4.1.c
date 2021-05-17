@@ -8,7 +8,7 @@
 int main(){
     int n, s = 1;
     scanf("%d", &n);
-    if (n < 8){
+    if (n < 8 && n >= 0){
         for (int i = 2; i <= n; i++){
             s *= i;
         }
