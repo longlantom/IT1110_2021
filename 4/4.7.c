@@ -17,13 +17,13 @@ long long gt(long long n){
 int main(){
     long long n;
     double x, k, s = 0;
-    scanf("%lld %lf", &n, &x);
-    if (n < 1 && x < 0) printf ("Error"); else{
+    scanf("%lf %lld", &x, &n);
+    if (n < 1 || x < 0) printf ("Error"); else{
         s = 0;
         for (long long i = 0; i < n; i++){
             s = sqrt(x + s);
         }
-        printf("%f\n", s);
+        printf("%.4lf\n", s);
 
         s = 1;
         for (long long i = 1; i <= n; i++){
@@ -33,7 +33,7 @@ int main(){
             }
             s += k/i;
         }
-        printf("%f\n", s);
+        printf("%.4lf\n", s);
 
         s = 1;
         for (long long i = 1; i <= n; i++){
@@ -43,7 +43,7 @@ int main(){
             }
             s += k/gt(i);
         }
-        printf("%f\n", s);
+        printf("%.4lf\n", s);
 
         s = 1;
         for (long long i = 1; i <= n; i++){
@@ -53,7 +53,7 @@ int main(){
             }
             s += ((i%2)?-1:1)*k/gt(i);
         }
-        printf("%f\n", s);
+        printf("%.4lf", s);
     }
     return 0;
 }
